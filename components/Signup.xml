@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name = "Signup" extends = "BaseGroup">
+
+    <script type="text/brightscript" uri="pkg:/components/Signup.brs" />
+
+    <children>
+        <Rectangle color="#183183" height="1080" width="1920"/>
+        <Label id="signupScreenLabel" visible="true" text="Signup Screen" translation="[440,240]"></Label>
+    </children>
+
+</component>

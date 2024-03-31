@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<!--********** Copyright 2016 Roku Corp.  All Rights Reserved. **********-->
+
+<component name = "MainScene" extends = "Scene">
+
+  <script type="text/brightscript" uri="pkg:/components/MainScene.brs" />
+  <script type="text/brightscript" uri="pkg:/components/stack/StackRule.brs" />
+
+  <interface>
+    <field id="contentSelect" type="string" alwaysNotify="true"/>
+    <function name="contentSelected"/>
+  </interface>
+
+  <children >
+    <Label id="labelid" text="Main Scene" translation="[440,240]"/>
+    <Button id="signinButton" translation="[440,500]" minwidth="400" text="Navigate to SignIn Screen"/>
+    <Group id="screens" translation="[0,0]"/>
+  </children>
+
+</component>

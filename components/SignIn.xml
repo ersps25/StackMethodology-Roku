@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<!--********** Copyright 2016 Roku Corp.  All Rights Reserved. **********-->
+
+<component name = "SignIn" extends = "BaseGroup">
+
+    <script type="text/brightscript" uri="pkg:/components/SignIn.brs" />
+
+    <children>
+
+        <Rectangle color="#9A1979" height="1080" width="1920"/>
+        <Label id="signinlabelid" visible="true" text="SignIn Screen" translation="[440,240]" />
+        <Button id="signupButton" text="Navigate to SignUp" minwidth="420" translation="[440,440]"/>
+
+    </children>
+
+</component>
